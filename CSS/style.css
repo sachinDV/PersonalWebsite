@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: Verdana, sans-serif;
 }
 
 div {
@@ -8,4 +10,18 @@ div {
 
 .top-container {
   background-color: #e4f9f5;
+  position: relative;
+  padding: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
